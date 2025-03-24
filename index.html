@@ -42,7 +42,7 @@
         </p>
         <div class="buttons">
           <a href="https://www.github.com/eduard0vieira" target="_blank"><button
-              class="primary">Projetos</button></a></a>
+              class="primary">Projetos</button></a>
           <a href="https://www.linkedin.com/in/eduard0vieira/" target="_blank"><button
               class="secondary">LinkedIn</button></a>
         </div>
@@ -93,13 +93,34 @@
         </div>
       </div>
 
-
-
     </section>
 
-  </main>
-  </div>
+    <section class="contato">
+      <h2 class="underline">Contato</h2>
 
+      <form class="form-contact" type="submit" method="POST">
+
+        <div class="form-input">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Ex: Carlos Eduardo" required>
+        </div>
+
+        <div class="form-input">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Ex: gmail@gmail.com" required>
+        </div>
+
+        <div class="form-input">
+          <label for="msg">Mensagem:</label>
+          <textarea id="msg" placeholder="Sua mensagem aqui" required></textarea>
+        </div>
+
+        <div class="form-button">
+          <button class="primary">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
 </body>
 
 </html>
